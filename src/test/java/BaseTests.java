@@ -22,6 +22,7 @@ public class BaseTests {
                 .setBaseUri("https://restful-booker.herokuapp.com")
                 .addFilters(Arrays.asList(new RequestLoggingFilter(), new ResponseLoggingFilter()))
                 .build();
+         //test
     }
 
 
